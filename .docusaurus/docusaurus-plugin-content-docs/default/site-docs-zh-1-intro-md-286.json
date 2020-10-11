@@ -1,0 +1,21 @@
+{
+  "unversionedId": "zh_intro",
+  "id": "zh_intro",
+  "isDocsHomePage": false,
+  "title": "项目简介",
+  "description": "export const Highlight = ({children, color}) => ( <span style={{",
+  "source": "@site/docs/zh_1_intro.md",
+  "slug": "/zh/intro",
+  "permalink": "/docs/zh/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/zh_1_intro.md",
+  "version": "current",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Guide",
+    "permalink": "/docs/en/guide"
+  },
+  "next": {
+    "title": "代币经济",
+    "permalink": "/docs/zh/token"
+  }
+}

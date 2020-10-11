@@ -1,0 +1,61 @@
+{
+  "version": "current",
+  "label": "Next",
+  "isLast": true,
+  "docsSidebars": {
+    "someSidebar": [
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "English",
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/docs/en/intro"
+          },
+          {
+            "type": "link",
+            "label": "Token Economic",
+            "href": "/docs/en/token"
+          },
+          {
+            "type": "link",
+            "label": "Guide",
+            "href": "/docs/en/guide"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "中文",
+        "items": [
+          {
+            "type": "link",
+            "label": "项目简介",
+            "href": "/docs/zh/intro"
+          },
+          {
+            "type": "link",
+            "label": "代币经济",
+            "href": "/docs/zh/token"
+          },
+          {
+            "type": "link",
+            "label": "教程",
+            "href": "/docs/zh/guide"
+          }
+        ]
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/docs/en/guide": "someSidebar",
+    "/docs/en/intro": "someSidebar",
+    "/docs/en/token": "someSidebar",
+    "/docs/zh/guide": "someSidebar",
+    "/docs/zh/intro": "someSidebar",
+    "/docs/zh/token": "someSidebar"
+  }
+}

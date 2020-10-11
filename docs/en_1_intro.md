@@ -2,10 +2,18 @@
 ## Distinct ID
 id: en_intro
 ## Top Title
+#### <Highlight color="#25c2a0">你的理想生活是什么?</Highlight>
 title: Introduction!
 sidebar_label: Introduction
 slug: ../en/intro
 ---
+
+export const Highlight = ({children, color}) => ( <span style={{
+      backgroundColor: color,
+      borderRadius: '3px',
+      color: '#fff',
+      padding: '0.1rem',
+    }}>{children}</span> );
 
 ## Introduction
 

@@ -1,0 +1,42 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "en_intro",
+          "docs": [
+            {
+              "id": "en_guide",
+              "path": "/docs/en/guide"
+            },
+            {
+              "id": "en_intro",
+              "path": "/docs/en/intro"
+            },
+            {
+              "id": "en_token",
+              "path": "/docs/en/token"
+            },
+            {
+              "id": "zh_guide",
+              "path": "/docs/zh/guide"
+            },
+            {
+              "id": "zh_intro",
+              "path": "/docs/zh/intro"
+            },
+            {
+              "id": "zh_token",
+              "path": "/docs/zh/token"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "permalink": "/blog/all",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2020-10-05-all_time_high.md",
+  "source": "@site/blog/2020-10-05-all_time_high.md",
+  "description": "What a pitty!",
+  "date": "2020-10-05T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "Chef",
+      "permalink": "/blog/tags/chef"
+    },
+    {
+      "label": "Team",
+      "permalink": "/blog/tags/team"
+    },
+    {
+      "label": "PancakeSwap",
+      "permalink": "/blog/tags/pancake-swap"
+    }
+  ],
+  "title": "TVL All Time High! (TEST)",
+  "readingTime": 0.055,
+  "truncated": true,
+  "nextItem": {
+    "title": "Introducing SYRUP Pool! Stake SYRUP to Farm New Tokens!",
+    "permalink": "/blog/introducing-syrup-pool-stake-syrup-to-farm-new-tokens"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "unversionedId": "en_intro",
+  "id": "en_intro",
+  "isDocsHomePage": false,
+  "title": "Introduction!",
+  "description": "export const Highlight = ({children, color}) => ( <span style={{",
+  "source": "@site/docs/en_1_intro.md",
+  "slug": "/en/intro",
+  "permalink": "/docs/en/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/en_1_intro.md",
+  "version": "current",
+  "sidebar_label": "Introduction",
+  "sidebar": "someSidebar",
+  "next": {
+    "title": "Token Economic",
+    "permalink": "/docs/en/token"
+  }
+}

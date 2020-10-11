@@ -1,0 +1,30 @@
+{
+  "chef": {
+    "allTagsPath": "/blog/tags",
+    "slug": "chef",
+    "name": "chef",
+    "count": 3,
+    "permalink": "/blog/tags/chef"
+  },
+  "team": {
+    "allTagsPath": "/blog/tags",
+    "slug": "team",
+    "name": "team",
+    "count": 2,
+    "permalink": "/blog/tags/team"
+  },
+  "pancake-swap": {
+    "allTagsPath": "/blog/tags",
+    "slug": "pancake-swap",
+    "name": "pancakeswap",
+    "count": 3,
+    "permalink": "/blog/tags/pancake-swap"
+  },
+  "announcement": {
+    "allTagsPath": "/blog/tags",
+    "slug": "announcement",
+    "name": "announcement",
+    "count": 1,
+    "permalink": "/blog/tags/announcement"
+  }
+}

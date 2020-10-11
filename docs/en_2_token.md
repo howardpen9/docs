@@ -4,7 +4,7 @@ title: Token Economic
 slug: ../en/token
 ---
 
-## CAKE
+## Pancake(CAKE)
 
 ![img](../static/img/pancake.png)
 

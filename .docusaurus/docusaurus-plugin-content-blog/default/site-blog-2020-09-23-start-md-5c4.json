@@ -1,0 +1,28 @@
+{
+  "permalink": "/blog/start",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2020-09-23-start.md",
+  "source": "@site/blog/2020-09-23-start.md",
+  "description": "export const Highlight = ({children, color}) => ( <span style={{",
+  "date": "2020-09-23T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "Chef",
+      "permalink": "/blog/tags/chef"
+    },
+    {
+      "label": "Team",
+      "permalink": "/blog/tags/team"
+    },
+    {
+      "label": "PancakeSwap",
+      "permalink": "/blog/tags/pancake-swap"
+    }
+  ],
+  "title": "Recipe, Chef, and The First Day",
+  "readingTime": 1.565,
+  "truncated": true,
+  "prevItem": {
+    "title": "Introducing SYRUP Pool! Stake SYRUP to Farm New Tokens!",
+    "permalink": "/blog/introducing-syrup-pool-stake-syrup-to-farm-new-tokens"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "unversionedId": "zh_token",
+  "id": "zh_token",
+  "isDocsHomePage": false,
+  "title": "代币经济",
+  "description": "煎饼(CAKE)",
+  "source": "@site/docs/zh_2_token.md",
+  "slug": "/zh/token",
+  "permalink": "/docs/zh/token",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/zh_2_token.md",
+  "version": "current",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "项目简介",
+    "permalink": "/docs/zh/intro"
+  },
+  "next": {
+    "title": "教程",
+    "permalink": "/docs/zh/guide"
+  }
+}

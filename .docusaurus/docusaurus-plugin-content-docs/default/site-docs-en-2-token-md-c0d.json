@@ -1,0 +1,21 @@
+{
+  "unversionedId": "en_token",
+  "id": "en_token",
+  "isDocsHomePage": false,
+  "title": "Token Economic",
+  "description": "Pancake(CAKE)",
+  "source": "@site/docs/en_2_token.md",
+  "slug": "/en/token",
+  "permalink": "/docs/en/token",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/en_2_token.md",
+  "version": "current",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Introduction!",
+    "permalink": "/docs/en/intro"
+  },
+  "next": {
+    "title": "Guide",
+    "permalink": "/docs/en/guide"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "permalink": "/blog/introducing-syrup-pool-stake-syrup-to-farm-new-tokens",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2020-09-27-introdcing_syrup.md",
+  "source": "@site/blog/2020-09-27-introdcing_syrup.md",
+  "description": "Imagine:",
+  "date": "2020-09-27T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "Chef",
+      "permalink": "/blog/tags/chef"
+    },
+    {
+      "label": "Announcement",
+      "permalink": "/blog/tags/announcement"
+    },
+    {
+      "label": "PancakeSwap",
+      "permalink": "/blog/tags/pancake-swap"
+    }
+  ],
+  "title": "Introducing SYRUP Pool! Stake SYRUP to Farm New Tokens!",
+  "readingTime": 1.64,
+  "truncated": true,
+  "prevItem": {
+    "title": "TVL All Time High! (TEST)",
+    "permalink": "/blog/all"
+  },
+  "nextItem": {
+    "title": "Recipe, Chef, and The First Day",
+    "permalink": "/blog/start"
+  }
+}

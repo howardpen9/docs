@@ -1,0 +1,364 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/penghaoen2/Documents/GitHub/docs/sidebars.js",
+          "docsDirPath": "/Users/penghaoen2/Documents/GitHub/docs/docs",
+          "mainDocId": "en_intro",
+          "sidebars": {
+            "someSidebar": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "English",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "en_intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "en_token"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "en_guide"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "中文",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "zh_intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "zh_token"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "zh_guide"
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/docs/en/guide": "someSidebar",
+            "/docs/en/intro": "someSidebar",
+            "/docs/en/token": "someSidebar",
+            "/docs/zh/guide": "someSidebar",
+            "/docs/zh/intro": "someSidebar",
+            "/docs/zh/token": "someSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "en_guide",
+              "id": "en_guide",
+              "isDocsHomePage": false,
+              "title": "Guide",
+              "description": "How to use PancakeSwap with Trust Wallet?",
+              "source": "@site/docs/en_3_Guide.md",
+              "slug": "/en/guide",
+              "permalink": "/docs/en/guide",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/en_3_Guide.md",
+              "version": "current",
+              "sidebar_label": "Guide",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Token Economic",
+                "permalink": "/docs/en/token"
+              },
+              "next": {
+                "title": "项目简介",
+                "permalink": "/docs/zh/intro"
+              }
+            },
+            {
+              "unversionedId": "en_intro",
+              "id": "en_intro",
+              "isDocsHomePage": false,
+              "title": "Introduction!",
+              "description": "export const Highlight = ({children, color}) => ( <span style={{",
+              "source": "@site/docs/en_1_intro.md",
+              "slug": "/en/intro",
+              "permalink": "/docs/en/intro",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/en_1_intro.md",
+              "version": "current",
+              "sidebar_label": "Introduction",
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "Token Economic",
+                "permalink": "/docs/en/token"
+              }
+            },
+            {
+              "unversionedId": "en_token",
+              "id": "en_token",
+              "isDocsHomePage": false,
+              "title": "Token Economic",
+              "description": "Pancake(CAKE)",
+              "source": "@site/docs/en_2_token.md",
+              "slug": "/en/token",
+              "permalink": "/docs/en/token",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/en_2_token.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Introduction!",
+                "permalink": "/docs/en/intro"
+              },
+              "next": {
+                "title": "Guide",
+                "permalink": "/docs/en/guide"
+              }
+            },
+            {
+              "unversionedId": "zh_guide",
+              "id": "zh_guide",
+              "isDocsHomePage": false,
+              "title": "教程",
+              "description": "如何在 TrustWallet 上使用松饼协议(PancakeSwap)?",
+              "source": "@site/docs/zh_3_guide.md",
+              "slug": "/zh/guide",
+              "permalink": "/docs/zh/guide",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/zh_3_guide.md",
+              "version": "current",
+              "sidebar_label": "教程",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "代币经济",
+                "permalink": "/docs/zh/token"
+              }
+            },
+            {
+              "unversionedId": "zh_intro",
+              "id": "zh_intro",
+              "isDocsHomePage": false,
+              "title": "项目简介",
+              "description": "export const Highlight = ({children, color}) => ( <span style={{",
+              "source": "@site/docs/zh_1_intro.md",
+              "slug": "/zh/intro",
+              "permalink": "/docs/zh/intro",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/zh_1_intro.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Guide",
+                "permalink": "/docs/en/guide"
+              },
+              "next": {
+                "title": "代币经济",
+                "permalink": "/docs/zh/token"
+              }
+            },
+            {
+              "unversionedId": "zh_token",
+              "id": "zh_token",
+              "isDocsHomePage": false,
+              "title": "代币经济",
+              "description": "煎饼(CAKE)",
+              "source": "@site/docs/zh_2_token.md",
+              "slug": "/zh/token",
+              "permalink": "/docs/zh/token",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/zh_2_token.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "项目简介",
+                "permalink": "/docs/zh/intro"
+              },
+              "next": {
+                "title": "教程",
+                "permalink": "/docs/zh/guide"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "all",
+          "metadata": {
+            "permalink": "/blog/all",
+            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2020-10-05-all_time_high.md",
+            "source": "@site/blog/2020-10-05-all_time_high.md",
+            "description": "What a pitty!",
+            "date": "2020-10-05T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "Chef",
+                "permalink": "/blog/tags/chef"
+              },
+              {
+                "label": "Team",
+                "permalink": "/blog/tags/team"
+              },
+              {
+                "label": "PancakeSwap",
+                "permalink": "/blog/tags/pancake-swap"
+              }
+            ],
+            "title": "TVL All Time High! (TEST)",
+            "readingTime": 0.055,
+            "truncated": true,
+            "nextItem": {
+              "title": "Introducing SYRUP Pool! Stake SYRUP to Farm New Tokens!",
+              "permalink": "/blog/introducing-syrup-pool-stake-syrup-to-farm-new-tokens"
+            }
+          }
+        },
+        {
+          "id": "introducing-syrup-pool-stake-syrup-to-farm-new-tokens",
+          "metadata": {
+            "permalink": "/blog/introducing-syrup-pool-stake-syrup-to-farm-new-tokens",
+            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2020-09-27-introdcing_syrup.md",
+            "source": "@site/blog/2020-09-27-introdcing_syrup.md",
+            "description": "Imagine:",
+            "date": "2020-09-27T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "Chef",
+                "permalink": "/blog/tags/chef"
+              },
+              {
+                "label": "Announcement",
+                "permalink": "/blog/tags/announcement"
+              },
+              {
+                "label": "PancakeSwap",
+                "permalink": "/blog/tags/pancake-swap"
+              }
+            ],
+            "title": "Introducing SYRUP Pool! Stake SYRUP to Farm New Tokens!",
+            "readingTime": 1.64,
+            "truncated": true,
+            "prevItem": {
+              "title": "TVL All Time High! (TEST)",
+              "permalink": "/blog/all"
+            },
+            "nextItem": {
+              "title": "Recipe, Chef, and The First Day",
+              "permalink": "/blog/start"
+            }
+          }
+        },
+        {
+          "id": "start",
+          "metadata": {
+            "permalink": "/blog/start",
+            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2020-09-23-start.md",
+            "source": "@site/blog/2020-09-23-start.md",
+            "description": "export const Highlight = ({children, color}) => ( <span style={{",
+            "date": "2020-09-23T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "Chef",
+                "permalink": "/blog/tags/chef"
+              },
+              {
+                "label": "Team",
+                "permalink": "/blog/tags/team"
+              },
+              {
+                "label": "PancakeSwap",
+                "permalink": "/blog/tags/pancake-swap"
+              }
+            ],
+            "title": "Recipe, Chef, and The First Day",
+            "readingTime": 1.565,
+            "truncated": true,
+            "prevItem": {
+              "title": "Introducing SYRUP Pool! Stake SYRUP to Farm New Tokens!",
+              "permalink": "/blog/introducing-syrup-pool-stake-syrup-to-farm-new-tokens"
+            }
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 3,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog"
+          },
+          "items": [
+            "all",
+            "introducing-syrup-pool-stake-syrup-to-farm-new-tokens",
+            "start"
+          ]
+        }
+      ],
+      "blogTags": {
+        "chef": {
+          "name": "chef",
+          "items": [
+            "all",
+            "introducing-syrup-pool-stake-syrup-to-farm-new-tokens",
+            "start"
+          ],
+          "permalink": "/blog/tags/chef"
+        },
+        "team": {
+          "name": "team",
+          "items": [
+            "all",
+            "start"
+          ],
+          "permalink": "/blog/tags/team"
+        },
+        "pancake-swap": {
+          "name": "pancakeswap",
+          "items": [
+            "all",
+            "introducing-syrup-pool-stake-syrup-to-farm-new-tokens",
+            "start"
+          ],
+          "permalink": "/blog/tags/pancake-swap"
+        },
+        "announcement": {
+          "name": "announcement",
+          "items": [
+            "introducing-syrup-pool-stake-syrup-to-farm-new-tokens"
+          ],
+          "permalink": "/blog/tags/announcement"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

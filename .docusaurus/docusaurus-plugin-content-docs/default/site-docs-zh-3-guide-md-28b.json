@@ -1,0 +1,18 @@
+{
+  "unversionedId": "zh_guide",
+  "id": "zh_guide",
+  "isDocsHomePage": false,
+  "title": "教程",
+  "description": "如何在 TrustWallet 上使用松饼协议(PancakeSwap)?",
+  "source": "@site/docs/zh_3_guide.md",
+  "slug": "/zh/guide",
+  "permalink": "/docs/zh/guide",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/zh_3_guide.md",
+  "version": "current",
+  "sidebar_label": "教程",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "代币经济",
+    "permalink": "/docs/zh/token"
+  }
+}

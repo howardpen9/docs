@@ -1,0 +1,22 @@
+{
+  "unversionedId": "en_guide",
+  "id": "en_guide",
+  "isDocsHomePage": false,
+  "title": "Guide",
+  "description": "How to use PancakeSwap with Trust Wallet?",
+  "source": "@site/docs/en_3_Guide.md",
+  "slug": "/en/guide",
+  "permalink": "/docs/en/guide",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/en_3_Guide.md",
+  "version": "current",
+  "sidebar_label": "Guide",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Token Economic",
+    "permalink": "/docs/en/token"
+  },
+  "next": {
+    "title": "项目简介",
+    "permalink": "/docs/zh/intro"
+  }
+}
