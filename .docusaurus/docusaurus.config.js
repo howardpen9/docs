@@ -1,159 +1,164 @@
 export default {
-  "title": "PancakeSwap",
-  "tagline": "Make Something Happended.",
-  "url": "https://pancakeswap.finance",
-  "baseUrl": "/",
-  "onBrokenLinks": "throw",
-  "favicon": "img/pancake.png",
-  "organizationName": "pancakeswap",
-  "projectName": "docs",
-  "themeConfig": {
-    "navbar": {
-      "title": "PanCake Swap",
-      "logo": {
-        "alt": "My",
-        "src": "img/pancake.png"
+  title: "PancakeSwap",
+  tagline: "Make Something Happended.",
+  url: "https://pancakeswap.finance",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  favicon: "img/pancake.png",
+  organizationName: "pancakeswap",
+  projectName: "docs",
+  themeConfig: {
+    navbar: {
+      title: "PanCake Swap",
+      logo: {
+        alt: "My",
+        src: "img/pancake.png",
       },
-      "items": [
+      items: [
         {
-          "to": "docs/en/intro",
-          "activeBasePath": "123",
-          "label": "Doc",
-          "position": "left"
+          to: "docs/en/intro",
+          activeBasePath: "123",
+          label: "Doc",
+          position: "left",
         },
         {
-          "to": "blog",
-          "activeBasePath": "blog",
-          "label": "Blog",
-          "position": "left"
+          to: "blog",
+          activeBasePath: "blog",
+          label: "Blog",
+          position: "left",
         },
         {
-          "href": "https://pancakeswap.info/",
-          "activeBasePath": "analytics",
-          "label": "Analytics",
-          "position": "left"
+          href: "https://pancakeswap.info/",
+          activeBasePath: "analytics",
+          label: "Analytics",
+          position: "left",
         },
         {
-          "href": "https://github.com/pancakeswap",
-          "label": "GitHub",
-          "position": "right"
-        }
+          href: "https://github.com/pancakeswap",
+          label: "GitHub",
+          position: "right",
+        },
       ],
-      "hideOnScroll": false
+      hideOnScroll: false,
     },
-    "footer": {
-      "style": "dark",
-      "links": [
+    footer: {
+      style: "dark",
+      links: [
         {
-          "title": "Community",
-          "items": [
+          title: "Community",
+          items: [
             {
-              "label": "Twitter",
-              "href": "https://twitter.com/pancakeswap"
+              label: "Twitter",
+              href: "https://twitter.com/pancakeswap",
             },
             {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              label: "Discord",
+              href: "https://discordapp.com/invite/docusaurus",
             },
             {
-              "label": "Medium",
-              "href": "https://medium.com/@pancakeswap"
-            }
-          ]
+              label: "Medium",
+              href: "https://medium.com/@pancakeswap",
+            },
+          ],
         },
         {
-          "title": "Telegram",
-          "items": [
+          title: "Telegram",
+          items: [
             {
-              "label": "Officail Announcement",
-              "href": "https://t.me/PancakeSwapAnn"
+              label: "Officail Announcement",
+              href: "https://t.me/PancakeSwapAnn",
             },
             {
-              "label": "PancakeSwap(EN)",
-              "href": "https://t.me/PancakeSwap"
+              label: "PancakeSwap(EN)",
+              href: "https://t.me/PancakeSwap",
             },
             {
-              "label": "PancakeSwap(中文)",
-              "href": "https://t.me/PancakeSwap_CN"
-            }
-          ]
+              label: "PancakeSwap(中文)",
+              href: "https://t.me/PancakeSwap_CN",
+            },
+          ],
         },
         {
-          "title": "Learn",
-          "items": [
+          title: "Learn",
+          items: [
             {
-              "label": "Guide",
-              "to": "docs/"
-            }
-          ]
+              label: "Guide",
+              to: "docs/",
+            },
+          ],
         },
         {
-          "title": "Product",
-          "items": [
+          title: "Product",
+          items: [
             {
-              "label": "Pancake Swap",
-              "href": "https://pancakeswap.finance"
+              label: "Pancake Swap",
+              href: "https://pancakeswap.finance",
             },
             {
-              "label": "Pancake Farm",
-              "href": "https://pancakeswap.finance/farms"
+              label: "Pancake Farm",
+              href: "https://pancakeswap.finance/farms",
             },
             {
-              "label": "Pancake Stakig",
-              "href": "https://pancakeswap.finance/staking"
+              label: "Pancake Stakig",
+              href: "https://pancakeswap.finance/staking",
             },
             {
-              "label": "Pancake Voting",
-              "href": "https://voting.pancakeswap.info"
+              label: "Pancake Voting",
+              href: "https://voting.pancakeswap.info",
             },
             {
-              "label": "Pancake Lottery",
-              "href": "https://pancakeswap.finance/lottery"
-            }
-          ]
-        }
+              label: "Pancake Lottery",
+              href: "https://pancakeswap.finance/lottery",
+            },
+          ],
+        },
       ],
-      "logo": {
-        "alt": "Facebook Open Source Logo12134",
-        "src": "img/oss_logo.png",
-        "href": "https://opensource.facebook.com"
+      logo: {
+        alt: "Facebook Open Source Logo12134",
+        src: "img/oss_logo.png",
+        href: "https://opensource.facebook.com",
       },
-      "copyright": "Copyright. © 2020 Facebook, Inc. Built with Docusaurus."
+      copyright: "Copyright. © 2020 Facebook, Inc. Built with Docusaurus.",
     },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false,
-      "switchConfig": {
-        "darkIcon": "🌜",
-        "darkIconStyle": {},
-        "lightIcon": "🌞",
-        "lightIconStyle": {}
-      }
+    colorMode: {
+      defaultMode: "light",
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+      switchConfig: {
+        darkIcon: "🌜",
+        darkIconStyle: {},
+        lightIcon: "🌞",
+        lightIconStyle: {},
+      },
     },
-    "metadatas": []
+    metadatas: [],
   },
-  "presets": [
+  presets: [
     [
       "@docusaurus/preset-classic",
       {
-        "docs": {
-          "sidebarPath": "/Users/penghaoen2/Documents/GitHub/docs/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
+        docs: {
+          sidebarPath: "..docs/sidebars.js",
+          editUrl:
+            "https://github.com/facebook/docusaurus/edit/master/website/",
         },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
+        blog: {
+          showReadingTime: true,
+          editUrl:
+            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
-        "theme": {
-          "customCss": "/Users/penghaoen2/Documents/GitHub/docs/src/css/custom.css"
-        }
-      }
-    ]
+        theme: {
+          customCss:
+            //"/Users/penghaoen2/Documents/GitHub/docs/src/css/custom.css",
+            [require.resolve("../src/css/custom.css")],
+          /// Custom Css: Address
+        },
+      },
+    ],
   ],
-  "onDuplicateRoutes": "warn",
-  "customFields": {},
-  "plugins": [],
-  "themes": [],
-  "titleDelimiter": "|"
+  onDuplicateRoutes: "warn",
+  customFields: {},
+  plugins: [],
+  themes: [],
+  titleDelimiter: "|",
 };

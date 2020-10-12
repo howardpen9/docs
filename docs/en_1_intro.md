@@ -23,7 +23,13 @@ PancakeSwap is an automated market maker (“AMM”) DeFi Protocol, that allows 
 
 PancakeSwap incorporates innovations in programmable tokens, financial management, and governance. [CAKE](../en/token#cake) is the Token of SashimiSwap, which is 100% distributed through liquidity mining with no pre-sale, pre-mining and team shares.
 
-#### **The Dream?**
+- You can trade any token you want at [Pancake Swap](https://exchange.pancakeswap.finance).
+- For help using MetaMask, visit our [User Support Site](https://metamask.zendesk.com/).
+- For up to the minute news, follow our [Telegram Official Announcement](https://t.me/PancakeSwapAnn), [Twitter](https://twitter.com/pancakeswap) or [Medium](https://medium.com/@pancakeswap) pages.
+
+---
+
+### <Highlight color="#25c2a0">**The Dream?**</Highlight>
 
 Stacks of pancakes, syrup, whipped cream.
 
@@ -31,19 +37,21 @@ Then after breakfast, PancakeSwap is aiming to be the \#1 liquidity provider on 
 
 ---
 
-#### **Why Binance Smart Chain \(BSC\)?**
+### **Why Binance Smart Chain \(BSC\)?**
 
 To be honest, it’s a no brainer. In very simple terms, why would we want to drive a slower car that costs more to run? While BSC might not have the level of adoption Ethereum does at current, we believe in Binance’s ability and drive to get it mighty close in the foreseeable future. Sure, launching on Ethereum would be the easiest thing to do and probably receive faster initial uptake, but we like a challenge and are betting on BSC’s future.
 
+#### Faster, cheaper. **Sold.**
+
 ---
 
-Faster, cheaper. **Sold.**
-
-**What makes PancakeSwap different from every other “farm”?**
+### **What makes PancakeSwap different from every other “farm”?**
 
 We’re here to have fun.
 
 What does that mean exactly? We’re going to be trying new things, with a focus on gamification.
+
+---
 
 ## Product
 
@@ -59,9 +67,7 @@ When you make a token swap \(trade\) on the exchange you will pay a **0.2% tradi
 
 **0.03%** - Sent to the PancakeSwap Treasury.
 
-### Pools
-
-#### Farm
+### Pools/Farm
 
 [**PancakeSwap pools** ](https://exchange.pancakeswap.finance/#/pool)allow you to provide liquidity by adding your tokens to liquidity pools or “LPs”.
 
@@ -73,10 +79,9 @@ The number of FLIP tokens you receive represents your portion of the CAKE-BNB li
 
 ---
 
-Providing liquidity is not without risk, as you may be exposed to impermanent loss.  
-[“Simply put
+Providing liquidity is not without risk, as you may be exposed to impermanent loss.
 
-, impermanent loss is the difference between holding tokens in an AMM and holding them in your wallet.” - Nate Hindman](https://blog.bancor.network/beginners-guide-to-getting-rekt-by-impermanent-loss-7c9510cb2f22)
+> [**“Simply put ,impermanent loss is the difference between holding tokens in an AMM and holding them in your wallet.”** - Nate Hindman](https://blog.bancor.network/beginners-guide-to-getting-rekt-by-impermanent-loss-7c9510cb2f22)
 
 It’s not all bad for liquidity providers as you will also be given a reward in the form of trading fees. Whenever someone trades PancakeSwap, the trader pays a 0.2% fee, of which 0.17% is added to the liquidity pool of the swap pair they traded on.
 
@@ -89,7 +94,7 @@ For example:
 - The CAKE/BNB liquidity pool now has 10.017 CAKE and 10.017 BNB.
 - Each FLIP token is now worth 1.00017 CAKE + 1.00017 BNB.
 
-To make being a liquidity provider even more worth your while, you can also put your FLIP tokens to work whipping up some fresh yield on the [CAKE farms \(here\)](https://pancakeswap.finance/), while still earning your 0.17% trading fee reward.
+To make being a liquidity provider even more worth your while, you can also put your FLIP tokens to work whipping up some fresh yield on the [CAKE Farms \(here\)](https://pancakeswap.finance/), while still earning your 0.17% trading fee reward.
 
 ### Staking
 
@@ -103,6 +108,6 @@ SYRUP: Govervance Token
 
 get reward
 
-## Analytics
-
-https://pancakeswap.info/
+::: caution
+This guide assumes intermediate knowledge of HTML, CSS, and JavaScript.
+:::
