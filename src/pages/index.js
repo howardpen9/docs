@@ -60,7 +60,7 @@ function Feature({ imageUrl, title, description }) {
       )}
       <h3>{title}</h3>
       <p>{description}</p>
-      <h1 className="purple-text">Purple Heading!</h1>
+      <h1 className="purple-text">Heading!!!!!</h1>
     </div>
   );
 }

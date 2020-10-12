@@ -49,23 +49,6 @@ export default {
       style: "dark",
       links: [
         {
-          title: "Community",
-          items: [
-            {
-              label: "Twitter",
-              href: "https://twitter.com/pancakeswap",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Medium",
-              href: "https://medium.com/@pancakeswap",
-            },
-          ],
-        },
-        {
           title: "Telegram",
           items: [
             {
@@ -79,6 +62,23 @@ export default {
             {
               label: "PancakeSwap(中文)",
               href: "https://t.me/PancakeSwap_CN",
+            },
+          ],
+        },
+        {
+          title: "Community",
+          items: [
+            {
+              label: "Twitter",
+              href: "https://twitter.com/pancakeswap",
+            },
+            {
+              label: "Discord",
+              href: "https://discordapp.com/invite/docusaurus",
+            },
+            {
+              label: "Medium",
+              href: "https://medium.com/@pancakeswap",
             },
           ],
         },
@@ -142,7 +142,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve("../sidebars.js"),
+          sidebarPath: "/Users/penghaoen2/Documents/GitHub/docs/sidebars.js",
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/",
         },
@@ -152,7 +152,8 @@ export default {
             "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
-          customCss: require.resolve("../src/css/custom.css"),
+          customCss:
+            "/Users/penghaoen2/Documents/GitHub/docs/src/css/custom.css",
         },
       },
     ],

@@ -57,23 +57,6 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Community",
-          items: [
-            {
-              label: "Twitter",
-              href: "https://twitter.com/pancakeswap",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Medium",
-              href: "https://medium.com/@pancakeswap",
-            },
-          ],
-        },
-        {
           title: "Telegram",
           items: [
             {
@@ -88,6 +71,23 @@ module.exports = {
             {
               label: "PancakeSwap(中文)",
               href: "https://t.me/PancakeSwap_CN",
+            },
+          ],
+        },
+        {
+          title: "Community",
+          items: [
+            {
+              label: "Twitter",
+              href: "https://twitter.com/pancakeswap",
+            },
+            {
+              label: "Discord",
+              href: "https://discordapp.com/invite/docusaurus",
+            },
+            {
+              label: "Medium",
+              href: "https://medium.com/@pancakeswap",
             },
           ],
         },
