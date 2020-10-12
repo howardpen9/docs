@@ -34,6 +34,10 @@ export default {
           position: "left",
         },
         {
+          search: true,
+          position: "left",
+        },
+        {
           href: "https://github.com/pancakeswap",
           label: "GitHub",
           position: "right",
@@ -138,7 +142,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: "..docs/sidebars.js",
+          sidebarPath: require.resolve("../sidebars.js"),
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/",
         },
@@ -148,8 +152,7 @@ export default {
             "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
-          customCss: [require.resolve("../src/css/custom.css")],
-          /// Custom Css: Address
+          customCss: require.resolve("../src/css/custom.css"),
         },
       },
     ],

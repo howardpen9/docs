@@ -12,18 +12,18 @@
 ////////////////////
 /// Landing Page ///
 ////////////////////
-import React from 'react';
-import clsx from 'clsx';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import styles from "./styles.module.css";
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg', //TODO
+    title: "Easy to Use",
+    imageUrl: "img/undraw_docusaurus_mountain.svg", //TODO
     description: (
       <>
         PanCake Swap was designed from the ground up to be easily used and swap
@@ -32,8 +32,8 @@ const features = [
     ),
   },
   {
-    title: 'Fast',
-    imageUrl: 'img/undraw_docusaurus_tree.svg', // TODO
+    title: "Fast",
+    imageUrl: "img/undraw_docusaurus_tree.svg", // TODO
     description: (
       <>
         Docusaurus lets you focus on your docs, and we'll do the chores. Go
@@ -42,17 +42,17 @@ const features = [
     ),
   },
   {
-    title: 'Low Transaction Fee',
-    imageUrl: 'img/undraw_docusaurus_react.svg', // TODO
+    title: "Low Transaction Fee",
+    imageUrl: "img/undraw_docusaurus_react.svg", // TODO
     description: <>PanCake Swap was build on top of Binance Smart Chain.</>,
   },
 ];
 
 //////////////////
-function Feature({imageUrl, title, description}) {
+function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx("col col--4", styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -60,28 +60,31 @@ function Feature({imageUrl, title, description}) {
       )}
       <h3>{title}</h3>
       <p>{description}</p>
+      <h1 className="purple-text">Purple Heading!</h1>
     </div>
   );
 }
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`} //TODO
-      description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      description="Description will go into a meta tag in <head />"
+    >
+      <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
+                "button button--outline button--secondary button--lg",
+                styles.getStarted
               )}
-              to={useBaseUrl('docs/en/intro')}>
+              to={useBaseUrl("docs/en/intro")}
+            >
               Get Started
             </Link>
           </div>
@@ -92,7 +95,7 @@ function Home() {
           <section className={styles.features}>
             <div className="container">
               <div className="row">
-                {features.map(({title, imageUrl, description}) => (
+                {features.map(({ title, imageUrl, description }) => (
                   <Feature
                     key={title}
                     title={title}

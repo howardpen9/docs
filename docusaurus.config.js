@@ -8,130 +8,131 @@
  */
 
 module.exports = {
-  title: 'PancakeSwap',
-  tagline: 'Make Something Happended.',
-  url: 'https://pancakeswap.finance',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  favicon: 'img/pancake.png',
-  organizationName: 'pancakeswap', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  title: "PancakeSwap",
+  tagline: "Make Something Happended.",
+  url: "https://pancakeswap.finance",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  favicon: "img/pancake.png",
+  organizationName: "pancakeswap", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'PanCake Swap',
+      title: "PanCake Swap",
       logo: {
-        alt: 'My',
-        src: 'img/pancake.png',
+        alt: "My",
+        src: "img/pancake.png",
       },
       items: [
         ////////////////// Content //////////////
         // Top bar Navigation
         {
-          to: 'docs/en/intro',
-          activeBasePath: '123',
-          label: 'Doc',
-          position: 'left',
+          to: "docs/en/intro",
+          activeBasePath: "123",
+          label: "Doc",
+          position: "left",
         },
         {
-          to: 'blog',
-          activeBasePath: 'blog',
-          label: 'Blog',
-          position: 'left',
+          to: "blog",
+          activeBasePath: "blog",
+          label: "Blog",
+          position: "left",
         },
         {
-          href: 'https://pancakeswap.info/',
-          activeBasePath: 'analytics',
-          label: 'Analytics',
-          position: 'left',
+          href: "https://pancakeswap.info/",
+          activeBasePath: "analytics",
+          label: "Analytics",
+          position: "left",
         },
         ///////////
         // Please keep GitHub link to the right for consistency.
+        { search: true },
         {
-          href: 'https://github.com/pancakeswap',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/pancakeswap",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/pancakeswap',
+              label: "Twitter",
+              href: "https://twitter.com/pancakeswap",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: "Discord",
+              href: "https://discordapp.com/invite/docusaurus",
             },
             {
-              label: 'Medium',
-              href: 'https://medium.com/@pancakeswap',
+              label: "Medium",
+              href: "https://medium.com/@pancakeswap",
             },
           ],
         },
         {
-          title: 'Telegram',
+          title: "Telegram",
           items: [
             {
-              label: 'Officail Announcement',
-              href: 'https://t.me/PancakeSwapAnn',
+              label: "Officail Announcement",
+              href: "https://t.me/PancakeSwapAnn",
               // to: 'blog',
             },
             {
-              label: 'PancakeSwap(EN)',
-              href: 'https://t.me/PancakeSwap',
+              label: "PancakeSwap(EN)",
+              href: "https://t.me/PancakeSwap",
             },
             {
-              label: 'PancakeSwap(中文)',
-              href: 'https://t.me/PancakeSwap_CN',
+              label: "PancakeSwap(中文)",
+              href: "https://t.me/PancakeSwap_CN",
             },
           ],
         },
         {
-          title: 'Learn',
+          title: "Learn",
           items: [
             {
-              label: 'Guide',
-              to: 'docs/',
+              label: "Guide",
+              to: "docs/",
             },
           ],
         },
 
         {
-          title: 'Product',
+          title: "Product",
           items: [
             {
-              label: 'Pancake Swap',
-              href: 'https://pancakeswap.finance',
+              label: "Pancake Swap",
+              href: "https://pancakeswap.finance",
             },
             {
-              label: 'Pancake Farm',
-              href: 'https://pancakeswap.finance/farms',
+              label: "Pancake Farm",
+              href: "https://pancakeswap.finance/farms",
             },
             {
-              label: 'Pancake Stakig',
-              href: 'https://pancakeswap.finance/staking',
+              label: "Pancake Stakig",
+              href: "https://pancakeswap.finance/staking",
             },
             {
-              label: 'Pancake Voting',
-              href: 'https://voting.pancakeswap.info',
+              label: "Pancake Voting",
+              href: "https://voting.pancakeswap.info",
             },
             {
-              label: 'Pancake Lottery',
-              href: 'https://pancakeswap.finance/lottery',
+              label: "Pancake Lottery",
+              href: "https://pancakeswap.finance/lottery",
             },
           ],
         },
       ],
       logo: {
         //TODO
-        alt: 'Facebook Open Source Logo12134',
-        src: 'img/oss_logo.png',
-        href: 'https://opensource.facebook.com',
+        alt: "Facebook Open Source Logo12134",
+        src: "img/oss_logo.png",
+        href: "https://opensource.facebook.com",
       },
       // Please do not remove the credits, help to publicize Docusaurus :)
       copyright: `Copyright. © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
@@ -139,22 +140,22 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            "https://github.com/facebook/docusaurus/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],

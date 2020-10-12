@@ -43,6 +43,14 @@ slug: ../en/token
 - CAKE is distributed proportionally at each block based on SYRUP holdings.
 - We will only record and distribute CAKE rewards to the wallet address that initiated the SYRUP staking. While Syrup can be sent to other addresses only the initiating address will receive the CAKE rewards,
 
+:::danger
+Always make sure you're using the right contract address!
+:::
+
 ## Golden SYRUP (Lottery)
 
+:::note
+
 > COMING SOON
+
+:::
