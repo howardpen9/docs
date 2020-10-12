@@ -148,9 +148,7 @@ export default {
             "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
-          customCss:
-            //"/Users/penghaoen2/Documents/GitHub/docs/src/css/custom.css",
-            [require.resolve("../src/css/custom.css")],
+          customCss: [require.resolve("../src/css/custom.css")],
           /// Custom Css: Address
         },
       },
