@@ -107,7 +107,3 @@ SYRUP: Govervance Token
 ### Lottery
 
 get reward
-
-::: caution
-This guide assumes intermediate knowledge of HTML, CSS, and JavaScript.
-:::

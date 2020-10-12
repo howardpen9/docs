@@ -131,7 +131,7 @@ export default {
       switchConfig: {
         darkIcon: "🌜",
         darkIconStyle: {},
-        lightIcon: "🌞",
+        lightIcon: "🥞",
         lightIconStyle: {},
       },
     },

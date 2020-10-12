@@ -45,8 +45,7 @@ module.exports = {
           position: "left",
         },
         ///////////
-        // Please keep GitHub link to the right for consistency.
-        { search: true },
+        { search: true }, //TODO
         {
           href: "https://github.com/pancakeswap",
           label: "GitHub",
